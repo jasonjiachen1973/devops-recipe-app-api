@@ -166,6 +166,7 @@ data "aws_iam_policy_document" "rds" {
       "rds:DeleteDBSubnetGroup",
       "rds:CreateDBInstance",
       "rds:DeleteDBInstance",
+      "rds:AddTagsToResource",
       "rds:ListTagsForResource",
       "rds:ModifyDBInstance"
     ]
